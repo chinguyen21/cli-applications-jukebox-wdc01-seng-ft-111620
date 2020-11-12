@@ -17,7 +17,7 @@ def list(songs)
 end 
 
 def play(songs)
-  puts " Please enter a song name or number:"
+  puts "Please enter a song name or number:"
   user_response = gets.chomp
   array = (1..9).to_a
   if array.include?(user_response.to_i) 
